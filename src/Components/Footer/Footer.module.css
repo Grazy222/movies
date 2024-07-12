@@ -1,0 +1,16 @@
+.footer{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.footer h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
