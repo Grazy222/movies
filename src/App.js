@@ -3,8 +3,7 @@ import Card from "./Components/Card";
 import Container from "./Components/Container";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-// import style from "./index.css";
-import videos from "./json/db.json";
+
 
 
 function App () {
@@ -12,15 +11,12 @@ function App () {
 
   return (
     <>
-      <Header/>
+      <Header />
       <Banner image="home" />
+      <h1>Episodio 1</h1>
       <Container>
-        <h1>Episodio 1</h1>
-        <section className={style.cards}>
-        
-         
+        <section >
         <Card/>
-          
         </section>
       </Container> 
       <Footer/>
