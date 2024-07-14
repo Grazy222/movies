@@ -1,3 +1,4 @@
+
 import Banner from "./Components/Banner";
 import Card from "./Components/Card";
 import Container from "./Components/Container";
@@ -6,17 +7,24 @@ import Header from "./Components/Header";
 
 
 
-function App () {
+
+const App = () => {
+ 
    
 
   return (
     <>
       <Header />
-      <Banner image="home" />
-      <h1>Episodio 1</h1>
+      <Banner />
+      
       <Container>
-        <section >
-        <Card/>
+        <h2> Episódio 1</h2>
+        <section className="cards">
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/> 
         </section>
       </Container> 
       <Footer/>
