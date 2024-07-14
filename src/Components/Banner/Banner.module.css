@@ -1,6 +1,6 @@
 .banner {
     width: 100%;
-    height: 30%;
+    height: 40vh;
     background-image: url('/public/side.jpg');
     background-repeat: no-repeat;
     background-size: cover;

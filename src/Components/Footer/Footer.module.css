@@ -1,10 +1,10 @@
 .footer{
-    background-color: blueviolet;
+    background-color: rgba(156, 75, 231, 0.411);
     color: aliceblue;
     width: 100%;
     position: absolute;
-    bottom: 0;
-    border-top: 2px solid #f44336;
+    /* bottom: 0; */
+    border-top: 2px solid #363232;
     display: flex;
     justify-content: center;
     align-items: center;

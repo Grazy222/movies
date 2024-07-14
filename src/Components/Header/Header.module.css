@@ -1,7 +1,7 @@
 .header{
     background-color: rgba(156, 75, 231, 0.411);
-    border-bottom: 2px solid #f44436;
-    position: fixed;
+    border-bottom: 2px solid #292424;
+    
     top: 0;
     height: 68px;
     width: 100%;
@@ -14,8 +14,8 @@
 }
 .header span {
     font-size: 2rem;
-    color: rgb(233, 11, 11);
-    font-weight: 300;    
+    color: rgb(153, 9, 9);
+    font-weight: 500;    
 }
 
 .header a {
