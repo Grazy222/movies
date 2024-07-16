@@ -1,9 +1,9 @@
-import style from"./Header.module.css"; 
+import styles from"./Header.module.css"; 
 
 function Header () {
     return(
         <>
-        <header className={style.header}>
+        <header className={styles.header}>
             <span>AluraFlix</span>
                 <nav>
                     <a href="/">Home</a>

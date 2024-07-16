@@ -1,47 +1,26 @@
-
-{
-  "info": {
-    "count": 51,
-    "pages": 3,
-    "next": "https://rickandmortyapi.com/api/episode?page=2",
-    "prev": null
-  },
-  "results": [
+[
     {
-      "id": 1,
-      "name": "Pilot",
-      "air_date": "December 2, 2013",
-      "episode": "S01E01",
-      "characters": [
-        "https://rickandmortyapi.com/api/character/1",
-        "https://rickandmortyapi.com/api/character/2"
-      ],
-      "url": "https://rickandmortyapi.com/api/episode/1",
-      "created": "2017-11-10T12:56:33.798Z"
+        "id": 1,
+        "titulo": "Parque Anatômico",
+        "capa": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+        "link": "https://youtu.be/mcSD_vJXm7I?si=eWyAocGBdLpj1TD3"
     },
     {
-      "id": 2,
-      "name": "Lawnmower Dog",
-      "air_date": "December 9, 2013",
-      "episode": "S01E02",
-      "characters": [
-        "https://rickandmortyapi.com/api/character/1",
-        "https://rickandmortyapi.com/api/character/2"
-      ],
-      "url": "https://rickandmortyapi.com/api/episode/2",
-      "created": "2017-11-10T12:56:33.798Z"
+        "id": 2,
+        "titulo": "Terry assustador",
+        "capa": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+        "link": "https://youtu.be/0xUs-DjQ2Xk?si=wYVGTlD4fFvywtku"
     },
     {
-      "id": 3,
-      "name": "Anatomy Park",
-      "air_date": "December 16, 2013",
-      "episode": "S01E03",
-      "characters": [
-        "https://rickandmortyapi.com/api/character/1",
-        "https://rickandmortyapi.com/api/character/2"
-      ],
-      "url": "https://rickandmortyapi.com/api/episode/3",
-      "created": "2017-11-10T12:56:33.798Z"
+        "id": 3,
+        "titulo": "Rick picles vs ratos",
+        "capa": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+        "link": "https://youtu.be/-UDYEZsEPSU?si=SfolV2dbz-qd39KM"
+    },
+    {
+        "id": 4,
+        "titulo": "Noite Shaym Alienígenas!",
+        "capa": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+        "link": "https://youtu.be/uvqwQQH0JnE?si=0ghUY1X0Zph2nhSP"
     }
-  ]
-}
+]

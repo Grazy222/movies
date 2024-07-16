@@ -1,5 +1,4 @@
-*{
-
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,9 +6,19 @@
   font-family: "Maname", serif;
   font-weight: 400;
   font-style: normal;
+  }
 }
 
+:root {
+  --fonte: 'Montserrat', sans-serif;
+  --branco: #ffff;
+  --marron: rgb(153, 9, 9);
+  --roxo: rgba(156, 75, 231, 0.411);
 }
+code {
+  font-family:soucer-code-pro, Menlo, Monaco, consolas 'monospace' ;
+}
+
 body{
 
   background-color: rgba(0, 0, 0, 0.527);

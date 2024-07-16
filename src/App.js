@@ -1,35 +1,35 @@
-
-import Banner from "./Components/Banner";
-import Card from "./Components/Card";
-import Container from "./Components/Container";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Page/Home/index";
+import NovoVideo from "./Page/NovoVideo"
 import Footer from "./Components/Footer";
+import Container from "./Components/Container";
 import Header from "./Components/Header";
-
-
+import { useState } from "react";
+import videos from "./json/db.json";
 
 
 const App = () => {
- 
-   
+   const [videoList, setVideoList] = useState(videos);
 
-  return (
-    <>
-      <Header />
-      <Banner />
-      
+  const handleAddVideo = (newVideo) => {
+    setVideoList([...videoList, newVideo]);
+  };
+  
+ return (
+    <BrowserRouter>
+      <Header/>
       <Container>
-        <h2> Episódio 1</h2>
-        <section className="cards">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/> 
-        </section>
-      </Container> 
+      
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/novovideo" element={<NovoVideo/>}></Route>
+    </Routes>
+    </Container>
       <Footer/>
-    </>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+

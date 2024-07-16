@@ -1,26 +1,45 @@
 .card {
+    padding: 0 0  1em 0;
+    margin: .5em;
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 16px;
-    margin: 8px;
-    width: 300px;
     box-shadow: 0 4px 8px rgba(221, 80, 80, 0.1);
-    text-align: center;
+    
    
 }
+h3{
+    font-size: 16px;
+}
 
-.card img {
+.capa  {
     width: 100%;
     border-radius: 8px;
 }
+.icon{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: burlywood;
+    
+}
 
- button {
+.editar {
+    width: 25px;
+    height: 30px;
     margin-top: 8px;
-    padding: 8px 16px;
-    font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-  }
+    
+    
+}
+
+.limpar{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
